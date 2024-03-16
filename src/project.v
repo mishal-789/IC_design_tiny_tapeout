@@ -20,6 +20,7 @@ module tt_um_example (
   // Example: ou_out is the sum of ui_in and uio_in
     assign ui_in[7:2] = 6'b000000;
     assign u0_out[7:2] = 6'b000000;
+  assign uio_in = 0
   assign uio_out = 0;
   assign uio_oe  = 0;
     assign uo_out[0] = ui_in[0] ^ ui_in[1]; // assigning sum
